@@ -1,0 +1,45 @@
+<h2 mat-dialog-title>Add New Piece</h2>
+<div mat-dialog-content>
+  <form class="example-form" [formGroup]="PieceForm">
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Piece Name</mat-label>
+      <input type="text" matInput formControlName="pieceName">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Piece Category</mat-label>
+      <mat-select formControlName="pCategory" placeholder="Category">
+        <mat-option value="children">Children</mat-option>
+        <mat-option value="women">Womens</mat-option>
+        <mat-option value="mens">Mens</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Piece Price</mat-label>
+      <input type="text" matInput formControlName="price" >
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Piece Image</mat-label>
+      <input type="text" matInput formControlName="pImage">
+    </mat-form-field>
+
+    <label id="example-radio-group-label"><b>Kind</b></label>
+    <mat-radio-group formControlName="pkind" aria-labelledby="example-radio-group-label" class="example-radio-group">
+      <mat-radio-button class="example-radio-button" *ngFor="let kind of kindList" [value]="kind">{{kind}}</mat-radio-button>
+    </mat-radio-group>
+
+    <mat-form-field class="example-full-width" appearance="outline">
+      <mat-label>Description</mat-label>
+      <textarea formControlName="pDescription" matInput></textarea>
+    </mat-form-field>
+  </form>
+</div>
+
+<div mat-dialog-action [align]="'center'">
+  <button mat-raised-button color="warn" mat-dialog-close>Close</button>
+  <button style="margin-left:8px" mat-raised-button color="primary" (click)="addPiece()">{{actionBtn}}</button>
+</div>
+
+

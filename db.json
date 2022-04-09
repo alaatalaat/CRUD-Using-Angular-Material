@@ -1,0 +1,86 @@
+{
+  "pieceList": [
+    {
+      "pieceName": "Sports Suit ",
+      "pCategory": "mens",
+      "price": "170.00",
+      "pImage": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/32/431352/1.jpg?1104",
+      "pkind": "Male",
+      "pDescription": "Sports Suit For Men Model 112/Black",
+      "id": 1
+    },
+    {
+      "pieceName": "T-Shirt",
+      "pCategory": "mens",
+      "price": "150",
+      "pImage": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/09/009952/1.jpg?8924",
+      "pkind": "Male",
+      "pDescription": "Two Piece - T-shirt&Pants -Black",
+      "id": 2
+    },
+    {
+      "pieceName": "Training Suit",
+      "pCategory": "women",
+      "price": "240.00",
+      "pImage": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/35/092822/1.jpg?9807",
+      "pkind": "Female",
+      "pDescription": "Caesar Training Suit With Pockets -multicolor",
+      "id": 3
+    },
+    {
+      "pieceName": "Track Suit",
+      "pCategory": "women",
+      "price": "399.00",
+      "pImage": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/50/408952/1.jpg?5596",
+      "pkind": "Female",
+      "pDescription": "Track suit cotton material multicolor Color",
+      "id": 4
+    },
+    {
+      "pieceName": "Swerve Halter ",
+      "pCategory": "women",
+      "price": "300",
+      "pImage": "https://m.media-amazon.com/images/I/41j1d9DWlbS._AC_UL320_.jpg",
+      "pkind": "Female",
+      "pDescription": "Swerve Halter Two-tone Evening Dress, One Size",
+      "id": 5
+    },
+    {
+      "pieceName": "Dare",
+      "pCategory": "women",
+      "price": "450",
+      "pImage": "https://m.media-amazon.com/images/I/91MxxvjhXkL._AC_UL320_.jpg",
+      "pkind": "Female",
+      "pDescription": "Leopard Printed Velvet Dress With Ballon Sleeves & Inner Lining",
+      "id": 6
+    },
+    {
+      "pieceName": "Men's Basic",
+      "pCategory": "mens",
+      "price": "99.00",
+      "pImage": "https://m.media-amazon.com/images/I/A1AbTZSi1TL._AC_UL320_.jpg",
+      "pkind": "Male",
+      "pDescription": "Fulfilled by Amazon - FREE Shipping",
+      "id": 7
+    },
+    {
+      "pieceName": "Panda adulet",
+      "pCategory": "women",
+      "price": "350.00",
+      "pImage": "https://m.media-amazon.com/images/I/314aGKnDm7L._AC_.jpg",
+      "pkind": "Female",
+      "pDescription": "Panda Adult Unisex Onesies Animal Cartoon ",
+      "id": 8
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
